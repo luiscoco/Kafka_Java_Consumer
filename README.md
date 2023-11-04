@@ -105,5 +105,53 @@ To **run** the Kafka Consumer Java application
 C:\Kafka with Java\OrderConsumer> java -cp "lib/*;src;." KafkaConsumerApp
 ```
 
+## How to run the Consumer and the Producer Java applications
 
+### 1. First we have to run the **zookeeper-server-start** command
+
+```
+zookeeper-server-start C:\kafka_2.13-3.6.0\config\zookeeper.properties
+```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/adcdaea3-ba9a-4feb-87de-db5f65dc850c)
+
+### 2. Open a command prompt window and run the command **kafka-server-start**
+
+```
+kafka-server-start C:\kafka_2.13-3.6.0\config\server.properties
+```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/64a7c126-3dbf-489a-876d-993a9986197b)
+
+### 3. Then open with VSCode the **Kafka Consumer** application and run it
+
+To **compile** the Kafka Consumer Java application
+
+```
+C:\Kafka with Java\OrderConsumer> javac -cp "lib/*;src" src/KafkaConsumerApp.java
+```
+
+To **run** the Kafka Consumer Java application
+
+```
+C:\Kafka with Java\OrderConsumer> java -cp "lib/*;src;." KafkaConsumerApp
+```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/0c03893c-0fd5-465c-905a-6fb88752fae1)
+
+### 4. Then open with VSCode the **Kafka Producer** application and run it
+
+To **compile** the Kafka Consumer Java application
+
+```
+C:\Kafka with Java\OrderProducer> javac -cp "lib/*;src" src/KafkaProducerApp.java
+```
+
+To **run** the Kafka Producer Java application
+
+```
+C:\Kafka with Java\OrderProducer> java -cp "lib/*;src;." KafkaProducerApp
+```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/40403620-3a24-498e-8f76-a33ea5737ca0)
 
