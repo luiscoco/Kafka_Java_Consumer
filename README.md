@@ -1,9 +1,28 @@
 # Kafka Java Consumer application
 
-Create a Kafka Consumer Java application with VSCode
+## Create a Kafka Consumer Java application with VSCode
 
-Follow the steps explained in the section 12. and **create a new Java blank application in VSCode** and then rename it from App.java to **KafkaConsumerApp.java**,
-and then input the following **source code**:
+We create a new folder to place the Java application.
+
+We right click inside the folder and we select the option **Open with VSCode**.
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/b6e778bf-c0cf-444c-b94c-42914f54180e)
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/eddfc3ef-f7ed-42b6-aa8f-5ff29088b145)
+
+We press the keys **Ctl+Shift+P** to create a **new Java application in VSCode**
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/c5b3aed1-3a50-40c1-8cab-51f17e74fc6c)
+
+We select the first option **No build tools**
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/dbd6f666-a160-412b-9bbc-902249801a13)
+
+Now we select the folder where to place the new Java application
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3d4d2d05-ddd3-4b93-8b8f-59e9d20f739f)
+
+Rename the App.java to **KafkaConsumerApp.java**, and then input the following **source code**:
 
 ```java
 import org.apache.kafka.clients.consumer.Consumer;
